@@ -1,0 +1,21 @@
+# Segredos: nunca vão pro GitHub (o .env.example é o modelo e fica)
+.env*
+!.env.example
+
+# Dependências e saída de build
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel e Supabase (arquivos locais)
+.vercel/
+supabase/.temp/
+supabase/.branches/
+
+# Sistema
+.DS_Store
+*.log
+coverage/

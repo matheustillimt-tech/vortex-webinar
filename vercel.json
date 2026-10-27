@@ -1,0 +1,7 @@
+{
+  "regions": ["gru1"],
+  "crons": [
+    { "path": "/api/cron/tick", "schedule": "* * * * *" },
+    { "path": "/api/cron/ia", "schedule": "* * * * *" }
+  ]
+}
